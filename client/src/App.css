@@ -1,0 +1,25 @@
+.App{
+  margin: 1rem;
+}
+
+.app-header{
+  font-size: 2rem;
+  text-decoration: underline;
+  margin-right: 5rem;
+}
+
+.app-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.app-section > input{
+  font-size: 1.5rem;
+}
+
+.app-section > label > input{
+  margin-left: 0.5rem;
+}

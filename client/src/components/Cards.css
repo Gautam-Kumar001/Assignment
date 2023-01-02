@@ -1,0 +1,43 @@
+.main-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 10px;
+}
+
+div.polaroid {
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+  
+div.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.delete-button{
+    width: 50%;
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 0 0 0 5px;
+}
+
+button.edit-button{
+    width: 50%;
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 0 0 5px 0;
+}

@@ -1,0 +1,29 @@
+.confirm-model-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model-container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem;
+    width: 25rem;
+}
+
+.model-container > label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.model-container > label > input{
+    width: 70%;
+    margin-left: 1.5rem;
+}
+
+.model-container > input{
+    margin-top: 2rem;
+}
